@@ -1,0 +1,96 @@
+body{
+    background-image: url('./imgs/cloud.jpg');
+
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+}
+
+.content{
+    width: 50%;
+    margin: auto;
+    color: #f0d43a;
+}
+
+h1{
+    font-size: 36px;
+    text-align: center;
+}
+
+input{
+    padding: 10px 0 10px 20px;
+    margin-bottom: 20px;
+    display:block;
+    height: 100%;
+    width: 100%;   
+    font-size: 20px;
+    background:#22b2da;
+    color: #f0d43a;
+    border: 1px solid #3b4a6b;
+    border-radius: 20px;
+    
+}
+
+.button_cover{
+    
+    width: 50%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+button{
+    width: 100%;
+    height: 50px;
+    background: #033472;
+    color: #f0d43a;
+    font-size: 26px;
+    font-weight: bold;
+    border-radius: 25px;
+    box-shadow: 2px 4px 5px #382929;
+}
+
+
+.show{
+    background: #0830883d;
+    border-radius: 20px;
+    width: 100%;
+    padding: 10px 0 10px 20px;
+}
+
+
+
+#title{
+    text-align: center;
+}
+
+/*  Basic Styling To Override Default For Basic HTML Elements */
+
+
+
+
+/* Reset style for HTML element on active to have no border*/
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+/* Style for Placeholder Text*/
+::placeholder { /* Firefox, Chrome, Opera */ 
+    color: #f0d43a; 
+    font-family: 'Oswald', sans-serif;
+    
+
+} 
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */ 
+    color: #f0d43a; 
+    font-family: 'Oswald', sans-serif;
+
+} 
+
+::-ms-input-placeholder { /* Microsoft Edge */ 
+    color: #f0d43a; 
+    font-family: 'Oswald', sans-serif;
+
+} 
